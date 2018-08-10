@@ -86,4 +86,5 @@ def func():
 
 for i in range(20):
     t1 = threading.Thread(target=func)
+    print("test")
     t1.start()
